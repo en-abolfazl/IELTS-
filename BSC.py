@@ -161,5 +161,5 @@ elif raw_score in bandscore9forgeneralreading:
     print ("Your General Reading band score is 9")
 
 
-print ("Wish you luck :)")
+print ("Wish you luck :) and happy IELTSing")
 
