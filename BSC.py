@@ -1,5 +1,5 @@
 # This program calculates your IELTS Listening and Reading (General & Academic) bandd score
-print ("Welcome to the Python IELSTS Listening and Reading (Academic/General) band score calculator.")
+print ("Welcome to the Python IELTS Listening and Reading (Academic/General) band score calculator.")
 # A description of raw scores and band scores for IELTS Listening 
 bandscore0forlistening = [0, 1, 2, 3]
 bandscore2_5forlistening = [4, 5]
