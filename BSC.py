@@ -1,13 +1,4 @@
 # This program calculates your IELTS Listening and Reading (General & Academic) band score
-print ("Welcome to the Python IELTS Listening and Reading (Academic/General) band score calculator.")
- 
-
-print ("This program calculates your IELTS Listening and Reading (Academic & General) band score.")
-print ("For Listening enter 1, for Academic Reading enter 2 and for General Reading enter 3")
-
-choice = input ("Please choose 1, 2 or 3")
-choice = int (choice)
-
 # A description of raw scores and band scores for IELTS Listening
 bandscore0forlistening = [0, 1, 2, 3]
 bandscore2_5forlistening = [4, 5]
@@ -61,9 +52,19 @@ bandscore8_5forgeneralreading = [39]
 bandscore9forgeneralreading = [40]
 
 
-#raw score for IELTS Listening
+print ("Welcome to the Python IELTS Listening and Reading (Academic/General) band score calculator.") 
+print ("This program calculates your IELTS Listening and Reading (Academic & General) band score.")
+print ("For Listening enter 1, for Academic Reading enter 2 and for General Reading enter 3")
 
-print ("You can calculate your IELTS Listening band score here:")
+choice = input ("Please choose 1, 2 or 3")
+choice = int (choice)
+
+
+
+#raw score for IELTS Listening
+if choice == 1:
+    print ("You can calculate your IELTS Listening band score here:")
+    
 raw_score = input ("Please enter your IELTS listening raw score")
 raw_score = int (raw_score)
 
@@ -102,7 +103,9 @@ elif raw_score in bandscore9forlistening:
 
 
 #raw score for IELTS Academic Reading
-print ("You can also calculate your IELTS Academic Reading band score here:")
+if choice == 2:
+    print ("You can also calculate your IELTS Academic Reading band score here:")
+    
 raw_score = input ("Please enter your IELTS Academic Reading raw score")
 raw_score = int (raw_score)
 
@@ -140,7 +143,9 @@ elif raw_score in bandscore9foracademicreading:
 
 
 #raw score for IELTS General Reading
-print ("You can also calculate your IELTS General Reading band score here:")
+if choice == 3: 
+    print ("You can also calculate your IELTS General Reading band score here:")
+    
 raw_score = input ("Please enter your IELTS General Reading raw score")
 raw_score = int (raw_score)
 
