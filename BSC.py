@@ -1,6 +1,6 @@
 # This program calculates your IELTS Listening and Reading (General & Academic) band score
 print ("Welcome to the Python IELTS Listening and Reading (Academic/General) band score calculator.")
-# A description of raw scores and band scores for IELTS Listening 
+ 
 
 print ("This program calculates your IELTS Listening and Reading (Academic & General) band score.")
 print ("For Listening enter 1, for Academic Reading enter 2 and for General Reading enter 3")
@@ -8,7 +8,7 @@ print ("For Listening enter 1, for Academic Reading enter 2 and for General Read
 choice = input ("Please choose 1, 2 or 3")
 choice = int (choice)
 
-
+# A description of raw scores and band scores for IELTS Listening
 bandscore0forlistening = [0, 1, 2, 3]
 bandscore2_5forlistening = [4, 5]
 bandscore3forlistening = [6, 7]
@@ -24,6 +24,42 @@ bandscore7_5forlistening = [32, 33, 34]
 bandscore8forlistening = [35, 36]
 bandscore8_5forlistening = [37, 38]
 bandscore9forlistening = [39, 40]
+
+# A description of raw scores and band scores for IELTS Reading 
+bandscore0foracademicreading = [0, 1, 2, 3]
+bandscore2_5foracademicreading = [4, 5]
+bandscore3foracademicreading = [6, 7]
+bandscore3_5foracademicreading = [8, 9]
+bandscore4foracademicreading = [10, 11, 12]
+bandscore4_5foracademicreading = [13, 14]
+bandscore5foracademicreading = [15, 16, 17, 18]
+bandscore5_5foracademicreading = [19, 20, 21, 22]
+bandscore6foracademicreading = [23, 24, 25, 26]
+bandscore6_5foracademicreading = [27, 28, 29]
+bandscore7foracademicreading = [30, 31, 32]
+bandscore7_5foracademicreading = [33, 34]
+bandscore8foracademicreading = [35, 36]
+bandscore8_5foracademicreading = [37, 38]
+bandscore9foracademicreading = [39, 40]
+
+
+# A description of raw scores and band scores for IELTS General Reading 
+bandscore0forgeneralreading = [0, 1, 2, 3, 4, 5]
+bandscore2_5forgeneralreading = [6, 7, 8]
+bandscore3forgeneralreading = [9, 10, 11]
+bandscore3_5forgeneralreading = [12, 13, 14]
+bandscore4forgeneralreading = [15, 16, 17, 18]
+bandscore4_5forgeneralreading = [19, 20, 21, 22]
+bandscore5forgeneralreading = [23, 24, 25, 26]
+bandscore5_5forgeneralreading = [27, 28, 29]
+bandscore6forgeneralreading = [30, 31]
+bandscore6_5forgeneralreading = [32, 33]
+bandscore7forgeneralreading = [34, 35]
+bandscore7_5forgeneralreading = [36]
+bandscore8forgeneralreading = [37, 38]
+bandscore8_5forgeneralreading = [39]
+bandscore9forgeneralreading = [40]
+
 
 #raw score for IELTS Listening
 
@@ -63,22 +99,7 @@ elif raw_score in bandscore9forlistening:
     print ("Your Listening band score is 9")
 
     
-# A description of raw scores and band scores for IELTS Reading 
-bandscore0foracademicreading = [0, 1, 2, 3]
-bandscore2_5foracademicreading = [4, 5]
-bandscore3foracademicreading = [6, 7]
-bandscore3_5foracademicreading = [8, 9]
-bandscore4foracademicreading = [10, 11, 12]
-bandscore4_5foracademicreading = [13, 14]
-bandscore5foracademicreading = [15, 16, 17, 18]
-bandscore5_5foracademicreading = [19, 20, 21, 22]
-bandscore6foracademicreading = [23, 24, 25, 26]
-bandscore6_5foracademicreading = [27, 28, 29]
-bandscore7foracademicreading = [30, 31, 32]
-bandscore7_5foracademicreading = [33, 34]
-bandscore8foracademicreading = [35, 36]
-bandscore8_5foracademicreading = [37, 38]
-bandscore9foracademicreading = [39, 40]
+
 
 #raw score for IELTS Academic Reading
 print ("You can also calculate your IELTS Academic Reading band score here:")
@@ -116,22 +137,7 @@ elif raw_score in bandscore8_5foracademicreading:
 elif raw_score in bandscore9foracademicreading:
     print 
 
-# A description of raw scores and band scores for IELTS General Reading 
-bandscore0forgeneralreading = [0, 1, 2, 3, 4, 5]
-bandscore2_5forgeneralreading = [6, 7, 8]
-bandscore3forgeneralreading = [9, 10, 11]
-bandscore3_5forgeneralreading = [12, 13, 14]
-bandscore4forgeneralreading = [15, 16, 17, 18]
-bandscore4_5forgeneralreading = [19, 20, 21, 22]
-bandscore5forgeneralreading = [23, 24, 25, 26]
-bandscore5_5forgeneralreading = [27, 28, 29]
-bandscore6forgeneralreading = [30, 31]
-bandscore6_5forgeneralreading = [32, 33]
-bandscore7forgeneralreading = [34, 35]
-bandscore7_5forgeneralreading = [36]
-bandscore8forgeneralreading = [37, 38]
-bandscore8_5forgeneralreading = [39]
-bandscore9forgeneralreading = [40]
+
 
 #raw score for IELTS General Reading
 print ("You can also calculate your IELTS General Reading band score here:")
